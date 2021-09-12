@@ -36,6 +36,10 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+According to the chart the back row drinks 8.5 more then the middle row, drinking only 3.3 drinks per week. The front row drinks 1.7 per week. It is reasonable to assure that they are not drinking the same amount.
 
 ## Inferential Tests
 
