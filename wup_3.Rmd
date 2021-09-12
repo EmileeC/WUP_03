@@ -44,7 +44,13 @@ favstats(alcohol~Seat,data=ucdavis1)
 According to the chart the back row drinks 8.5 more then the middle row, drinking only 3.3 drinks per week. The front row drinks 1.7 per week. It is reasonable to assure that they are not drinking the same amount.
 
 ## Inferential Tests
+```{r}
+favstats(momheight~Sex,data=ucdavis1)
+```
+The P value represents the chances of getting a result like we just obtained if the null hypothesis is actually true. Since the result is  so small I reject the null hypothesis. 
 
 ## Conclusions
+
+
 
 
